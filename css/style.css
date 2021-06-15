@@ -9,7 +9,7 @@ body{
 
 @media (max-width: 767px) { 
     .container{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .texto{
         width: 100vw;
@@ -18,8 +18,8 @@ body{
         background-color: rgba(1, 9, 27, 0.7);
         color: white;
         position: absolute;
-        top: 50%; 
-        margin-top: -25px; 
+        top: 50vh; 
+        margin-top: -3vh; 
         text-align: center;
     }
     .texto p, span{
