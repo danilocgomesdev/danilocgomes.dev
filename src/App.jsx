@@ -1,11 +1,11 @@
-import experiencias from './dados/experiencias.json';
+import dados from './dados/experiencias.json';
 
 import './global.css';
 import styles from './App.module.css'
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { Introducao } from './components/Introducao';
-import { Post } from './components/Post';
+import { Experiencias } from './components/Experiencias';
 import { Footer } from './components/Footer';
 
 function App() {
@@ -16,11 +16,11 @@ function App() {
         <Sidebar />
         <main>
         <Introducao />
-          {experiencias.experiencia.map(dados => {
+          {dados.experiencia.map(a => {
             return (
-              <Post
-                key={dados.id}
-                dados={dados}
+              <Experiencias
+                key={a.id}
+                dados={a}
               />
             )
           })}

@@ -1,6 +1,6 @@
-import styles from './Post.module.css';
+import styles from './Experiencias.module.css';
 
-export function Post({dados}) {
+export function Experiencias({dados}) {
   return (
     <article className={styles.post}>
       <header>

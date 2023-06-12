@@ -1,3 +1,3 @@
-## Projeto do cuso Ignite Rocketseat
+## Projeto de Curriculo
 
-### Projeto 01 - fundamentos react js
+>> Esse projeto visa mostrar um pouco da minha experiencia profissional.
