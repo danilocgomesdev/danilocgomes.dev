@@ -1,0 +1,12 @@
+.footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 2.5rem 0;
+    background: var(--gray-800);
+}
+
+.footer p {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}

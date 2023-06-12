@@ -1,43 +1,52 @@
 {
 	"experiencia": [
 		{
+			"id": 1,
 			"empresa": "SESI - Departamento Regional de Goiás",
-			"cargo": "ANALISTA DE SISTEMAS",
+			"cargo": "Analista Sênior",
 			"vinculo": "Celetista",
 			"periodo": "2020 - Atual",
-			"carga_horaria": "40"
+			"carga_horaria": "40",
+			"outras_informacoes": "Desenvolvedor Fullstack, usando linguagens como: Java(Quarkus, Spring), React Js, SQL Server e outras."
 		},
 		{
-			"empresa": "Universidade Estadual de Goiás",
+			"id": 2,
+			"empresa": "UEG - Universidade Estadual de Goiás",
 			"cargo": "Professor titular",
 			"vinculo": "Servidor Público",
 			"periodo": "2020 - 2022",
-			"carga_horaria": "20"
+			"carga_horaria": "20",
+			"outras_informacoes": "Professor do curso de Sistemas de Informação, das disciplinas Programação 1,2,3 e 4, Estrutura de Dados e outras."
 		},
 		{
-			"empresa": "Universidade Estadual de Goiás",
+			"id": 3,
+			"empresa": "UEG - Universidade Estadual de Goiás",
 			"cargo": "Professor titular",
 			"vinculo": "Servidor Público",
 			"periodo": "2015 - 2019",
 			"carga_horaria": "40",
-			"outras_informacoes": "Eleito Coordenador do curso de Sistemas de Informação em fevereiro de 2019."
+			"outras_informacoes": "Professor do curso de Sistemas de Informação, das disciplinas Programação 1,2,3 e 4, Estrutura de Dados e outras. Coordenador do curso de Sistemas de Informação em fevereiro de 2019."
 		},
 		{
-			"empresa": "PRONATEC",
+			"id": 4,
+			"empresa": "PRONATEC - Programa Nacional de Ensino Tecnológico",
 			"cargo": "Coordenador de Eixo",
 			"vinculo": "Bolsista",
 			"periodo": "2015 - 2016",
-			"carga_horaria": "20"
+			"carga_horaria": "20",
+			"outras_informacoes": "Coordenador de Equipe de professores e desenvolvedores."
 		},
 		{
-			"empresa": "Centro de Educação Profissional de Porangatu",
+			"id": 5,
+			"empresa": "CEPP - Centro de Educação Profissional de Porangatu",
 			"cargo": "Professor",
 			"vinculo": "Servidor Público",
 			"periodo": "2012 - 2016",
 			"carga_horaria": "28",
-			"outras_informacoes": "Contrato Temporário, como Professor de Nível Superior."
+			"outras_informacoes": "Professor dos cursos Tecnicos em Analise e Desenvolvimento de Sistemas, das disciplinas Programação de Software."
 		},
 		{
+			"id": 6,
 			"empresa": "Portal Celulares",
 			"cargo": "Supervisor de Vendas",
 			"vinculo": "Celetista",
@@ -46,42 +55,49 @@
 			"outras_informacoes": "Revenda da Operadora Oi, voltada para área empresarial."
 		},
 		{
-			"empresa": "Programa Nacional de Ensino Tecnológico",
+			"id": 7,
+			"empresa": "PRONATEC - Programa Nacional de Ensino Tecnológico",
 			"cargo": "Professor",
 			"vinculo": "Bolsista",
 			"periodo": "2012 - 2014",
-			"carga_horaria": "20"
+			"carga_horaria": "20",
+			"outras_informacoes": "Professor dos cursos Tecnicos em Analise e Desenvolvimento de Sistemas, das disciplinas Programação de Software."
 		},
 		{
-			"empresa": "Serviço Nacional de Aprendizagem Comercial - GO",
+			"id": 8,
+			"empresa": "SENAC - Serviço Nacional de Aprendizagem Comercial Goiás",
 			"cargo": "Instrutor de Informática",
 			"vinculo": "Celetista",
 			"periodo": "2017 - 2020",
-			"carga_horaria": "20"
+			"carga_horaria": "20",
+			"outras_informacoes": "Professor dos cursos Tecnicos em Analise e Desenvolvimento de Sistemas, das disciplinas Programação de Software."
 		},
 		{
-			"empresa": "Serviço Nacional de Aprendizagem Comercial - GO",
-			"cargo": "Professor",
+			"id": 9,
+			"empresa": "SENAC - Serviço Nacional de Aprendizagem Comercial Goiás",
+			"cargo": "Instrutor de Informática",
 			"vinculo": "",
 			"periodo": "2014 - 2015",
 			"carga_horaria": "16",
-			"outras_informacoes": "Professor no curso de Programador Web"
+			"outras_informacoes": "Professor no curso de Programador Web, usando Javascript, HTML5 e CSS3."
 		},
 		{
+			"id": 10,
 			"empresa": "É Digital Agência Digital",
-			"cargo": "Coordenador de TI",
+			"cargo": "Coordenador de TI e Desenvolvedor",
 			"vinculo": "Contrato",
 			"periodo": "2015 - 2020",
 			"carga_horaria": "20",
-			"outras_informacoes": "- Desenvolvimento de Sites, Aplicativos e muito mais; - Manutenção em Informática em Geral; - Instalação de infraestrutura de TI."
+			"outras_informacoes": "Desenvolvimento de Sites, Aplicativos e muito mais; - Manutenção em Informática em Geral; - Instalação de infraestrutura de TI."
 		},
 		{
-			"empresa": "Instituto Federal de Educação, Ciência e Tecnologia de Goiás",
-			"cargo": "PROFESSOR DE INFORMÁTICA",
+			"id": 11,
+			"empresa": "IFG - Instituto Federal de Educação, Ciência e Tecnologia de Goiás",
+			"cargo": "Professor titular",
 			"vinculo": "Servidor Público",
 			"periodo": "2021 - 2022",
 			"carga_horaria": "20",
-			"outras_informacoes": "PROFESSOR DE INFORMÁTICA APLICADA AS AREAS."
+			"outras_informacoes": "Professor dos cursos Tecnicos e áreas a fins."
 		}
 	]
 }

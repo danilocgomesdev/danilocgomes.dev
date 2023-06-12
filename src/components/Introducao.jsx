@@ -15,9 +15,7 @@ export function Introducao() {
           Isso me permite oferecer soluções personalizadas e escaláveis que atendem às necessidades 
           específicas dos meus clientes.</p>
         <p>
-        Neste site, você encontrará informações detalhadas sobre meus serviços anteriores. 
-        Fique à vontade para explorar e entrar em contato comigo para discutirmos como posso ajudar a 
-        impulsionar a sua ideia ou negócio por meio da tecnologia.
+        Segue abaixo um pouco das minhas experiências profissionais.
         </p>
       </div>
       
