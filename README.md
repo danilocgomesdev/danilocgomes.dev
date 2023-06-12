@@ -1,2 +1,3 @@
-# danilocgomes.dev
-Meu site de apresentação
+## Projeto de Curriculo
+
+>> Esse projeto visa mostrar um pouco da minha experiencia profissional.
