@@ -5,8 +5,7 @@ import igniteLogo from '../assets/logodanilo.png'
 export function Header(){
     return (
         <header className={styles.header}>
-            <img src={igniteLogo} alt="Logotipo do Ignite" />
-            <strong>danilocgomes.dev</strong>
+            <span>danilocgomes.dev</span>
         </header>
     )
 }
