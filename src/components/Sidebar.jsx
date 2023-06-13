@@ -1,4 +1,4 @@
-import { EnvelopeSimple, InstagramLogo } from 'phosphor-react';
+import { EnvelopeSimple, LinkedinLogo, GithubLogo } from 'phosphor-react';
 import { Avatar } from './Avatar';
 
 import styles from './Sidebar.module.css';
@@ -15,8 +15,9 @@ return (
         <strong>Danilo Gomes</strong>
         <span>Developer Fullstack</span>
         <span className={styles.linha}/>
-        <span><EnvelopeSimple size={20}/> contato@danilocgomes.dev</span>
-        <span> <InstagramLogo size={20} />danilocgomes.dev</span>
+        <a href='mailto:contato@danilocgomes.dev?' target='_blank'><span><EnvelopeSimple size={20}/> contato@danilocgomes.dev</span></a>
+        <a href='https://github.com/danilocgomesdev/' target='_blank'><span> <GithubLogo size={20} />danilocgomesdev</span></a>
+        <a href='https://www.linkedin.com/in/danilocgomesdev/' target='_blank'><span> <LinkedinLogo size={20} />danilocgomesdev</span></a>
         </div>
     </aside>
   );
