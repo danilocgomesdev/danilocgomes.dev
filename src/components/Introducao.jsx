@@ -7,7 +7,7 @@ export function Introducao() {
       <h3>Bem-vindo(a) ao meu site! </h3>
         <p>Sou Analista Sênior apaixonado por criar soluções 
           inovadoras que impulsionam negócios e melhoram a vida das pessoas. Com uma combinação única
-           de habilidades técnicas e criatividade, estou comprometido(a) em transformar conceitos em 
+           de habilidades técnicas e criatividade, estou comprometido em transformar conceitos em 
            realidade digital.</p>
         <p>Com anos de experiência no desenvolvimento de software, estou sempre buscando estar na vanguarda 
           das tecnologias emergentes e tendências do setor. Minha paixão por programação e resolução de 
