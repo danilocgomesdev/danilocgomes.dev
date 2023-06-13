@@ -13,7 +13,7 @@ return (
         <div className={styles.profile}>
         <Avatar src="https://github.com/danilocgomesdev.png" />
         <strong>Danilo Gomes</strong>
-        <span>Developer Fullstack</span>
+        <span>Desenvolvedor Fullstack</span>
         <span className={styles.linha}/>
         <a href='mailto:contato@danilocgomes.dev?' target='_blank'><span><EnvelopeSimple size={20}/> contato@danilocgomes.dev</span></a>
         <a href='https://github.com/danilocgomesdev/' target='_blank'><span> <GithubLogo size={20} />danilocgomesdev</span></a>
