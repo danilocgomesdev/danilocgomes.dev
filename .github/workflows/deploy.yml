@@ -6,7 +6,7 @@ on:
   # Inicia o workflow sempre que hubver um push para o branch 'main'
   push:
     branches:
-      - main
+      - master
   # Permite que você execute o workflow manualmente
   workflow_dispatch:
 
