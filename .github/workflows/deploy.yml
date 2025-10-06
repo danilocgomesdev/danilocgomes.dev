@@ -1,0 +1,45 @@
+# .github/workflows/deploy.yml
+
+name: Deploy Estático para GitHub Pages
+
+on:
+  # Inicia o workflow sempre que hubver um push para o branch 'main'
+  push:
+    branches:
+      - main
+  # Permite que você execute o workflow manualmente
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout: Clona o código do seu repositório
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Setup pnpm: Configura o Node.js e o pnpm
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Use a versão do Node que você está usando
+          cache: 'pnpm'
+
+      - name: Instalar dependências
+        run: pnpm install --frozen-lockfile
+
+      # 3. Build: Roda o script de build do Next.js (que agora é a exportação estática)
+      - name: Build com Next.js
+        run: pnpm run build
+        
+      # 4. Deploy: Usa a action de deploy mais comum para GitHub Pages
+      - name: Deploy para GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          # O token de deploy
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # A pasta de saída do Next.js (ou 'out', se você não usou distDir)
+          publish_dir: ./dist
+          # O branch que o GitHub Pages vai monitorar
+          publish_branch: gh-pages
