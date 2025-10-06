@@ -42,6 +42,6 @@ jobs:
           # O token de deploy
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # A pasta de saída do Next.js (ou 'out', se você não usou distDir)
-          publish_dir: ./dist
+          publish_dir: .next
           # O branch que o GitHub Pages vai monitorar
           publish_branch: gh-pages
