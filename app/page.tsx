@@ -1,8 +1,8 @@
 "use client"
 
 import { Github, Linkedin, Mail, ArrowRight, Code2, Database, Cloud, Layers, Menu, X, Sun, Moon } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
+import { Button } from "../components/ui/button"
+import { Card } from "../components/ui/card"
 import { useState, useEffect } from "react"
 
 export default function Portfolio() {
