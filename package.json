@@ -72,7 +72,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "pnpm exec gh-pages -d .next -b gh-pages -r"
+    "lint": "next lint"
   }
 }
