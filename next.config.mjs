@@ -2,13 +2,16 @@
 const nextConfig = {
   output: 'export',
   basePath: '/danilocgomes.dev',
-  images: { unoptimized: true },
+  assetPrefix: '/danilocgomes.dev/',
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
-  }
-}
+  },
+  images: {
+    unoptimized: true,
+  },
+};
 
-export default nextConfig
+export default nextConfig;
