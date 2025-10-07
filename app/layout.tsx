@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Danilo Gomes - Portfólio',
   description: 'Portfólio de Danilo Gomes, Desenvolvedor Full Stack.',
   generator: 'Next.js',
+  icons: {
+    icon: 'https://github.com/danilocgomesdev.png',
+ }
 }
 
 export default function RootLayout({
